@@ -1,0 +1,32 @@
+{
+  "name": "aframe-drag-and-drop-component",
+  "version": "0.0.1",
+  "description": "A component to add drag and drop to AFRAME project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "webpack index.js dist/aframe-drag-and-drop-component.js && webpack --define process.env.NODE_ENV=\"production\" --config=webpack.prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkwave/aframe-drag-and-drop-component.git"
+  },
+  "keywords": [
+    "aframe",
+    "vr",
+    "drag",
+    "drop",
+    "component"
+  ],
+  "author": "Massimo Avvisati <massimo.avvisati@codemotion.it>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/darkwave/aframe-drag-and-drop-component/issues"
+  },
+  "homepage": "https://github.com/darkwave/aframe-drag-and-drop-component#readme",
+  "devDependencies": {
+    "aframe": "^0.7.1",
+    "uglifyjs-webpack-plugin": "^1.1.4",
+    "webpack": "^3.10.0"
+  }
+}
